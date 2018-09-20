@@ -1,5 +1,5 @@
 import http from 'http'
-// import { execute, subscribe } from 'graphql'
+import { execute, subscribe } from 'graphql'
 import { createServer } from 'http'
 
 import app from './server'

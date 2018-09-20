@@ -1,0 +1,5 @@
+type Playlist {
+    title: String!;
+    songs: [Song]!;
+    favorite: Boolean!;
+}
