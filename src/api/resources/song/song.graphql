@@ -2,6 +2,7 @@ type Song {
     title: String!;
     url: String!;
     album: String;
-    rating: Number!;
+    artist: String;
+    rating: Int!;
     favorite: Boolean!;
 }
