@@ -6,3 +6,8 @@ type Song {
     rating: Int!;
     favorite: Boolean!;
 }
+
+extend type Query {
+    Song(id: ID!): Song!
+    
+}
